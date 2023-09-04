@@ -1,0 +1,46 @@
+
+
+
+
+/login => com.in28minutes.springboot.myfirstwebapp.login.LoginController => login.jsp
+
+localhost:8080/login
+
+B1: Identifies correct Controller method /login => LoginController.gotoLoginPage
+
+B2: Executes Controller method => Puts data into model => Returns view name => login
+
+B3: Identifies correct View /WEB-INF/jsp/login.jsp
+
+B4: Executes view
+
+#TODO LIST
+
+id
+username
+description
+target date
+done
+
+#TODOSERVICE
+findByUsername
+
+#TOBOCONTROLLER
+RequestMapping("list-todos")
+
+
+/META-INF/resources/webjars/bootstrap/5.1.3/css/bootstrap.min.css
+/META-INF/resources/webjars/bootstrap/5.1.3/js/bootstrap.min.js
+/META-INF/resources/webjars/jquery/3.6.0/jquery.min.js
+
+<dependency>
+	<groupId>org.webjars</groupId>
+	<artifactId>bootstrap-datepicker</artifactId>
+	<version>1.9.0</version>
+</dependency>
+
+
+
+
+
+
